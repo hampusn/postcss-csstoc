@@ -1,0 +1,21 @@
+{
+  "name": "postcss-csstoc",
+  "version": "0.1.0",
+  "description": "PostCSS Processor which creates a table of content based on your comment sections in your css file so you won't have to.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "postcss",
+    "css",
+    "toc",
+    "comment"
+  ],
+  "author": "Hampus Nordin <nordin.hampus@gmail.com> (https://hampusnord.in)",
+  "license": "MIT",
+  "dependencies": {
+    "extend": "^3.0.0",
+    "postcss": "^5.1.2"
+  }
+}
