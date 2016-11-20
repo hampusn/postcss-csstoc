@@ -1,6 +1,6 @@
 {
   "name": "postcss-csstoc",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "PostCSS Processor which creates a table of content based on your comment sections in your css file so you won't have to.",
   "main": "index.js",
   "scripts": {

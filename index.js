@@ -23,7 +23,9 @@ function textFormatter (comment, opts) {
 
     row = row.replace(/^(#+\s+)/, ''); // Strip depth
     row = row.charAt(0).toUpperCase() + row.slice(1).toLowerCase(); // Capitalize
-    row = opts.padDepthChar.repeat(depth) + ' ' + row; // Pad/indent with depth
+    if (depth > 0) {
+      row = opts.padDepthChar.repeat(depth) + ' ' + row; // Pad/indent with depth
+    }
 
     return row;
   }
